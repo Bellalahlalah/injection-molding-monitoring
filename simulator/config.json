@@ -5,5 +5,12 @@
   "alarm_probability": 0.02,
   "stop_probability": 0.03,
   "recovery_probability": 0.30,
-  "cycle_time_variation_pct": 8
+  "reject_probability": 0.02,
+  "cycle_time_variation_pct": 8,
+  "alarm_codes": [
+    {"code": "ALM-101", "message": "Nozzle temperature low", "severity": "WARNING"},
+    {"code": "ALM-204", "message": "Barrel temperature deviation", "severity": "WARNING"},
+    {"code": "ALM-310", "message": "Mold open timeout", "severity": "CRITICAL"},
+    {"code": "ALM-405", "message": "Hydraulic pressure low", "severity": "CRITICAL"}
+  ]
 }
