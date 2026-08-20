@@ -1,0 +1,9 @@
+{
+  "api_base_url": "http://localhost:8000",
+  "send_interval_seconds": 5,
+  "machine_refresh_seconds": 30,
+  "alarm_probability": 0.02,
+  "stop_probability": 0.03,
+  "recovery_probability": 0.30,
+  "cycle_time_variation_pct": 8
+}
